@@ -1,0 +1,2 @@
+def password_gener(z=int(input('How long password do you need?: '))): return print(f"Your password: {''.join(i for i in list(__import__('random').choice(list(__import__('string').ascii_letters + __import__('string').punctuation + __import__('string').digits)) for i in range(0,z)))}")
+password_gener()
